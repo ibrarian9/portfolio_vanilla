@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link
+      rel="shortcut icon"
+      href="./Assets/images/archive.png"
+      type="image/x-icon"
+    />
+    <!-- Unicons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- Swiper -->
+    <link rel="stylesheet" href="./Assets/Css/swiper-bundle.min.css" />
+    <!-- Navbar CSS -->
+    <link rel="stylesheet" href="./Assets/Css/navbar.css" />
+    <!-- Home CSS -->
+    <link rel="stylesheet" href="./Assets/Css/contact.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo"
+          ><i class="uil uil-react nav_icon"></i>Portfolio</a
+        >
+        <div class="nav_menu">
+          <ul class="nav_list grid">
+            <li>
+              <a href="home.html" class="nav_link">
+                <i class="uil uil-estate nav_icon"></i>Home
+              </a>
+            </li>
+            <li>
+              <a href="about.html" class="nav_link">
+                <i class="uil uil-user nav_icon"></i>About
+              </a>
+            </li>
+            <li>
+              <a href="skills.html" class="nav_link">
+                <i class="uil uil-file-alt nav_icon"></i>Skills
+              </a>
+            </li>
+            <li>
+              <a href="services.html" class="nav_link">
+                <i class="uil uil-briefcase-alt nav_icon"></i>Services
+              </a>
+            </li>
+            <li>
+              <a href="project.html" class="nav_link">
+                <i class="uil uil-scenery nav_icon"></i>Project
+              </a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav_link active">
+                <i class="uil uil-message nav_icon"></i>Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+      <h2 class="section_title">Contact me</h2>
+      <span class="section_subtitle">Get in touch</span>
+
+      <div class="contact_container container grid">
+        <div>
+          <div class="contact_information">
+            <i class="uil uil-phone-alt contact_icon"></i>
+
+            <div>
+              <h3 class="contact_title">Call me</h3>
+              <span class="contatc_subtitle">(62+) 85274325008</span>
+            </div>
+          </div>
+
+          <div class="contact_information">
+            <i class="uil uil-envelope contact_icon"></i>
+
+            <div>
+              <h3 class="contact_title">E-mail</h3>
+              <span class="contatc_subtitle">Ibrarian9@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact_information">
+            <i class="uil uil-map-marker contact_icon"></i>
+
+            <div>
+              <h3 class="contact_title">Location</h3>
+              <span class="contatc_subtitle">Riau, Pekanbaru</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="#" class="contact_form grid">
+          <div class="contact_inputs grid">
+            <div class="contact_content">
+              <label for="name" class="contact_label">Name</label>
+              <input type="text" id="name" class="contact_input" />
+            </div>
+
+            <div class="contact_content">
+              <label for="email" class="contact_label">E-mail</label>
+              <input type="email" id="email" class="contact_input" />
+            </div>
+          </div>
+          <div class="contact_content">
+            <label for="subject" class="contact_label">Subject</label>
+            <input type="text" id="subject" class="contact_input" />
+          </div>
+          <div class="contact_content">
+            <label for="description" class="contact_label">Description</label>
+            <textarea
+              id="description"
+              name="description"
+              cols="5"
+              rows="7"
+              class="contact_input"
+            ></textarea>
+          </div>
+          <div>
+            <a href="thanks.html" class="button button-flex contact_button">
+              Send message
+              <i class="uil uil-message button_icon"></i>
+            </a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

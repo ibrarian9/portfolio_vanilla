@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 0 3rem 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.938rem;
+  background-color: white;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: black;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* section */
+
+.section {
+  padding: 6rem 0 2rem;
+  margin-bottom: 40px;
+}
+
+.section_title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.section_subtitle {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Layout */
+
+.header,
+.main {
+  padding: 0 1rem;
+}
+
+.header {
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.container {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* Button */
+
+.button {
+  display: inline-block;
+  background-color: #46a1b3;
+  color: #ffff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: #0b687b;
+}
+
+.button-flex {
+  display: inline-flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+/* Navbar */
+
+.nav {
+  max-width: 968px;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_logo,
+.nav_toggle {
+  color: black;
+  font-weight: 500;
+  font-size: large;
+}
+
+.nav_logo:hover {
+  color: #46a1b3;
+}
+
+.nav_toggle {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.nav_toggle:hover {
+  color: #46a1b3;
+}
+
+.nav_list {
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+}
+
+.nav_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 500;
+}
+
+.nav_link:hover {
+  color: #46a1b3;
+}
+
+.nav_icon {
+  font-size: 1.2rem;
+}
+
+.active {
+  color: #46a1b3;
+}

@@ -1,0 +1,59 @@
+.contact_container {
+  row-gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact_information {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.contact_icon {
+  font-size: 1.5rem;
+  color: #46a1b3;
+  margin-right: 0.75rem;
+}
+
+.content_title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.contact_form {
+  width: 460px;
+}
+
+.contact_subtitle {
+  font-size: 0.9rem;
+  color: whitesmoke;
+}
+
+.contact_content {
+  background-color: #cce1e5;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem 0.25rem;
+}
+
+.contact_label {
+  font-size: 0.75rem;
+  color: black;
+}
+
+.contact_inputs {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact_input {
+  width: 100%;
+  background-color: #cce1e5;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+.contact_button:hover .button_icon {
+  transform: translateX(0.25rem);
+}
