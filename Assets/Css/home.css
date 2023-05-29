@@ -21,21 +21,21 @@
 
 .home_social-icon {
   font-size: 2.5rem;
-  color: #46a1b3;
+  color: #607adb;
   width: 50px;
 }
 
 .home_social-icon:hover {
-  color: #10697b;
+  color: #a3b1ee;
 }
 
-.home_blob {
-  width: 320px;
-  fill: #57c9e0;
-}
-
-.home_blob-img {
+.home_img {
   width: 220px;
+  border-radius: 50%;
+}
+
+.home_img:hover {
+  transform: scaleX(-1);
 }
 
 .home_social {
@@ -52,12 +52,12 @@
 }
 
 .home_title {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .home_subtitle {
   font-size: 24px;
-  color: black;
+  color: #607adb;
   font-weight: 500;
   margin-bottom: 0.75rem;
 }
@@ -70,41 +70,17 @@
   display: none;
 }
 
-.home_scroll-button {
-  color: white;
-  transition: 0.3s;
-}
-
-.home_scroll-button:hover {
-  transform: translateY(0.25rem);
-}
-
-.home_scroll-mouse {
-  font-size: 2rem;
-}
-
-.home_scroll-name {
-  font-size: 0.9rem;
-  color: black;
-  font-weight: 500;
-  margin-right: 0.25;
-}
-
-.home_scroll-arrow {
-  font-size: 1.25rem;
-}
-
 .button {
   display: inline-block;
-  background-color: #46a1b3;
-  color: #ffff;
+  background-color: #607adb;
+  color: #2f323b;
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: 500;
 }
 
 .button:hover {
-  background-color: #0e6a7d;
+  background-color: #a3b1ee;
 }
 
 .button_icon {

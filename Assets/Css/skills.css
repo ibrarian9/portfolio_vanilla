@@ -12,7 +12,7 @@
 .skills_icon,
 .skills_arrow {
   font-size: 2rem;
-  color: #46a1b3;
+  color: #607adb;
 }
 
 .skills_icon {
@@ -25,7 +25,7 @@
 
 .skills_subtitle {
   font-size: 0.9rem;
-  color: #646864;
+  color: #a3b1ee;
 }
 
 .skills_arrow {
@@ -56,12 +56,12 @@
 }
 
 .skills_bar {
-  background-color: #bfe4eb;
+  background-color: #a3b1ee;
 }
 
 .skills_percentage {
   display: block;
-  background-color: #46a1b3;
+  background-color: #607adb;
 }
 
 .skills_html {

@@ -19,32 +19,6 @@
   text-align: initial;
 }
 
-.about_info {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2.5rem;
-}
-
-.about_info-title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: black;
-  display: block;
-  text-align: center;
-}
-
-.about_info-name {
-  font-size: 0.75rem;
-  display: block;
-  text-align: center;
-}
-
-.about_info-title,
-.about_info-name {
-  display: block;
-  text-align: center;
-}
-
-.about_button:hover .button_icon {
+.about_button .button_icon {
   transform: translate(0.25rem);
 }

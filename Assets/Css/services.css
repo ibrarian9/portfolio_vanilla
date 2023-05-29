@@ -5,7 +5,7 @@
 
 .services_content {
   position: relative;
-  background-color: white;
+  background-color: #a3b1ee;
   padding: 7rem 0.5rem 1.25rem 1.5rem;
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
@@ -19,7 +19,7 @@
 .services_icon {
   display: block;
   font-size: 3rem;
-  color: #46a1b3;
+  color: #2f323b;
   margin-bottom: 1rem;
 }
 
@@ -27,6 +27,7 @@
   font-size: 1.25rem;
   margin-bottom: 1rem;
   font-weight: 500;
+  color: #2f323b;
 }
 
 .services_button {
@@ -57,7 +58,7 @@
 
 .services_modal-content {
   position: relative;
-  background-color: white;
+  background-color: #a3b1ee;
   padding: 1.5rem;
   border-radius: 0.5rem;
 }
@@ -81,12 +82,12 @@
   top: 1rem;
   right: 1rem;
   font-size: 1.5rem;
-  color: #46a1b3;
+  color: #607adb;
   cursor: pointer;
 }
 
 .services_modal-icon {
-  color: #46a1b3;
+  color: #607adb;
   margin-right: 0.5rem;
 }
 

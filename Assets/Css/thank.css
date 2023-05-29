@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #46a1b3;
+  background-color: #607adb;
 }
 
 h1 {
@@ -43,7 +43,7 @@ p {
   margin-top: 20px;
   display: inline-block;
   background-color: #fff;
-  color: #46a1b3;
+  color: #a3b1ee;
   padding: 1rem;
   border-radius: 0.5rem;
   font-weight: 500;
@@ -54,7 +54,7 @@ a {
 }
 
 .button:hover {
-  background-color: #0b687b;
+  background-color: #607adb;
 }
 
 .button-flex {
